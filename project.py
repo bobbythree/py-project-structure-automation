@@ -17,11 +17,16 @@ def main():
     os.makedirs(path2)
     os.makedirs(path3)
 
-    #create main.py file
+    #create blank files inside directories
+    with open(os.path.join(path, "README.md"), 'w') as fp:
+            pass
+
+    with open(os.path.join(path, ".gitignore"), 'w') as fp:
+            pass
+    
     with open(os.path.join(path2, "main.py"), 'w') as fp:
         pass
         
-
             
 if __name__ == "__main__":
     main()
