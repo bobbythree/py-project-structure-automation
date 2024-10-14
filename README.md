@@ -1,9 +1,9 @@
 this program automates the setup of a python project's file structure as follows:
 
--root  
-  -src/  
-    -main.py  
-  -tests/  
+root  
+&nbsp;src/  
+&nbsp; &nbsp; main.py  
+&nbsp; tests  
 
  to run as a binary on Linux:
  - clone this repo to local machine
