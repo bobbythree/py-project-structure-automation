@@ -8,7 +8,7 @@ inside the root directory is a blank README.md file, .gitignore file, src/ direc
 inside the src/ directory is a blank main.py file.  
  
 
-##file structure:  
+## file structure:  
 root/
 --README.md .gitignore src/ tests/  
 
