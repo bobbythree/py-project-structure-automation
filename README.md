@@ -1,7 +1,7 @@
 this program automates the setup of a python project's file structure as follows:
 
 root  
-&nbsp;src/  
+&nbsp; src/  
 &nbsp; &nbsp; main.py  
 &nbsp; tests  
 
