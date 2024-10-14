@@ -7,7 +7,7 @@ Inside the src/ directory is a blank main.py file.
  
 
 ## file structure:  
-root/
+root/  
 --README.md .gitignore src/ tests/  
 
 src/  
