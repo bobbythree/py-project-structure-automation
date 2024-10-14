@@ -4,12 +4,24 @@ import os
 import sys
 
 def main():
-    parent_dir = os.getcwd()    
+    #create root dir
+    root_dir = os.getcwd()
     project_name = sys.argv[1]
-    path = os.path.join(parent_dir, project_name)
-    os.mkdir(path)
-    # print("dir '%s' created" %project_name)
-    
 
+    #path variables
+    path = os.path.join(root_dir, project_name)
+    path2 = f'{path}/src'
+    path3 = f'{path}/tests'
+
+    #create src and test dir
+    os.makedirs(path2)
+    os.makedirs(path3)
+
+    #create main.py file
+    with open(os.path.join(path2, "main.py"), 'w') as fp:
+        pass
+        
+
+            
 if __name__ == "__main__":
     main()
