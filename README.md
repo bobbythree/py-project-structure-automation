@@ -19,13 +19,13 @@ tests/
 
 ## to run as a binary on Linux:  
  - clone this repo to local machine  
- - copy or save py-project.py file to /usr/local/bin
+ - copy py-project.py file to /usr/local/bin with: ```sudo cp py-project.py /usr/local/bin```
  - cd into /usr/local/bin  
- - rename script without .py extension with ```sudo mv py-project.py py-project```
- - change permissions for the file with ```sudo chmod +x py-project```
- - change ownership of file with ```sudo chown [your-username]:[your-group-name] py-project```
+ - rename script without .py extension with: ```sudo mv py-project.py py-project```
+ - change permissions for the file with: ```sudo chmod +x py-project```
+ - change ownership of file with: ```sudo chown [your-username]:[your-group-name] py-project```
  - open terminal in directory of your choice  
- - type ```py-project [name of your project]```  
+ - type ```py-project [name of your project]``` to create project  
 
 
 ## to run not as a binary:
