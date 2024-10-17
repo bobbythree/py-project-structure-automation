@@ -8,7 +8,7 @@ Inside the src/ directory is a blank main.py file.
 
 ## file structure:  
 root/  
---README.md  .gitignore  src/  tests/  
+--README.md &nbsp;&nbsp; .gitignore &nbsp;&nbsp; src/ &nbsp;&nbsp; tests/  
 
 src/  
 --main.py  
@@ -19,10 +19,11 @@ tests/
 
 ## to run as a binary on Linux:  
  - clone this repo to local machine  
- - copy py-project.py script to /usr/local/bin  
- - rename script without .py extension with ```mv py-project.py py-project```
- - change permissions for the file with ```chmod +x py-project```
- - change ownership of script with ```chown [your-username]:[group-name] py-project```
+ - copy or save py-project.py file to /usr/local/bin
+ - cd into /usr/local/bin  
+ - rename script without .py extension with ```sudo mv py-project.py py-project```
+ - change permissions for the file with ```sudo chmod +x py-project```
+ - change ownership of file with ```sudo chown [your-username]:[your-group-name] py-project```
  - open terminal in directory of your choice  
  - type ```py-project [name of your project]```  
 
